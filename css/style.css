@@ -18,6 +18,7 @@ body{
 	color:#000;
 	position:relative;
 }
+
 img{
 	max-width: 100%;
 	vertical-align:bottom;
@@ -38,6 +39,31 @@ li{
 a{
 	font-size: 12px;
 	color: #0087e4;
+}
+
+/* helping adds*/
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	line-height: 0;
+	content: '';
+}
+
+.clearfix:after {
+	clear: both;
+}
+.clear{clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;}
+.juster{display:inline-block;width:100%;height:0;overflow:hidden;}
+.vfix{height:100%;width:0;display:inline-block;vertical-align:middle;}
+
+.resize {
+    position: relative;
+    margin: 0 auto;
+    width: 960px;
+
+}
+.add{
+	    padding-top: 24px;
 }
 
 /* fonts */
@@ -81,23 +107,6 @@ a{
     font-weight: normal;
 }
 /* /fonts*/
-
-
-/* helping adds*/
-.clearfix:before,
-.clearfix:after {
-	display: table;
-	line-height: 0;
-	content: '';
-}
-
-.clearfix:after {
-	clear: both;
-}
-.clear{clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;}
-.juster{display:inline-block;width:100%;height:0;overflow:hidden;}
-.vfix{height:100%;width:0px;display:inline-block;vertical-align:middle;}
-
 /* /helping adds*/
 
 .wrapper{
@@ -256,7 +265,7 @@ a{
     margin-bottom: 11px;
     text-transform: uppercase;
     font-family: "IntroRegular", Arial, sans-serif;
-    padding-bottom: 0px; 
+    padding-bottom: 0;
     text-decoration: none;
    
 }
@@ -303,14 +312,14 @@ a{
 	height: 18px;
 	width: 18px;
 	display: inline-block;
-	margin: 0 5px -5px 0px;
+	margin: 0 5px -5px 0;
 }
 .wish_link:before{
 	background-position: -279px 90px;
 	height: 18px;
 	width: 18px;
 	display: inline-block;
-	margin: 0 5px -5px 0px;
+	margin: 0 5px -5px 0;
 }
 
 .header__main{
@@ -397,7 +406,152 @@ a{
 	position: absolute;
 }
 
-.content{
-	background: url(../images/pattern_top.png) repeat-x;
+main {
+    background: url("../images/pattern_top.png") repeat-x left top;
 }
 
+/* Slider__bloc left */
+.left-block {
+    float: left;;
+    width: 75%;
+    padding-left: 81px;
+    background-color: white;
+    border: 3px solid #f4cf23;
+}
+
+.slider {
+    float: right;
+}
+
+.left-block h1 {
+    display: block;
+    color: #0193e9;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 45px 0 14px 0;
+}
+
+.left-block p {
+    display: block;
+    color: #676767;
+    font-size: 12px;
+    padding-bottom: 23px;
+}
+
+.left-block span {
+    display: block;
+    padding: 3px 0 20px 22px;
+    color: #2e353a;
+    font-size: 22px;
+    font-weight: bold;
+    background: url("../images/prise.png") no-repeat;
+}
+
+.left-block a {
+    display: inline-block;
+    color: #0193e9;
+    font-family: Georgia sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.left-block b {
+    display: inline-block;
+    color: #0087e3;
+    font-size: 14px;
+    line-height: 46px;
+    width: 47px;
+    height: 47px;
+    border-radius: 30px;
+    background: #f4e43c 0 0;
+    text-align: center;
+    margin-left: 17px;
+}
+
+/* LEFT block END */
+/* Right BLOCK */
+.right-block{
+    float: right;
+    width:24%;
+    margin: 0 0 6px 0;
+    background-color: white;
+    border: 3px solid #0193e9;
+}
+.right-block a{
+    display: block;
+    color: #0193e9;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 3px 0 0 15px;
+}
+.right-block img{
+    float: right;
+}
+.right-block p{
+    background: url("../images/prise.png") no-repeat 10px 15px;
+    color: #2e353a;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 17px 0 0 35px;
+
+}
+.right-block span{
+    font-size: 14px;
+    padding:0 0 0 0;
+}
+
+/* CONTENT */
+
+.header__content{
+    padding-top:  40px;
+    text-align: center;
+    color: #0193e9;
+    font-family: IntroRegular;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.social__rating{
+    display: inline-block;
+
+}
+.social__rating li{
+    float: left;
+    list-style-type: none;
+    padding: 26px 0 0 15px;
+
+}
+
+/* CONTENT BLOC*/
+.center{text-align: center;}
+
+.content-bloc{
+    display: inline-block;
+}
+.central__bloc img{
+    display: inline-block;
+    float: left;
+}
+.central__bloc p{
+    height: 14px;
+    color: #676767;
+    font-family: Georgia ;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 32px;
+}
+.central__bloc b{
+    color: #676767;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.central__bloc span{
+    padding: 8px 0 0 16px;
+    color: #676767;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+}

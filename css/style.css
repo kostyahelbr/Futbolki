@@ -194,38 +194,43 @@ a{
 	background: url(../images/spritesheet.png) no-repeat;
 }
 .icon_pen:before{
-	background-position: -5px -31px;
+	background-position: -17px -20px;
 	height: 16px;
 	width: 16px;
 	left: 15px;
 }
 .icon_coin:before{
-	background-position: -5px -5px;
+	background-position: 0px -20px;
 	height: 16px;
 	width: 16px;
 	left: 15px;
 }
 
 .social .vk{
-	background-position: -5px -58px;
+	background-position: -56px -17px;
 }
 
 .social .ok{
-	background-position: -47px -58px;
+	background-position: -71px -18px;
 }
 
 .social .fb{
-	background-position: -89px -58px;
+	background-position: -83px -17px;
 }
 
 .social li{
 	display: inline-block;
+	border: 2px solid #0394e9;
+	border-radius: 18px;
+	width: 36px;
+	height: 36px;
 }
 
 .social a{
 	display: block;
-	height: 32px;
-	width: 32px;
+	height: 16px;
+	width: 14px;
+	margin: 8px 0 8px 10px;
 	background: url("../images/spritesheet.png") no-repeat;
 }
 
@@ -308,15 +313,15 @@ a{
 	background: url(../images/spritesheet.png);
 }
 .basket_link:before{
-	background-position: -406px 158px;
+	background-position: 0px 0px;
 	height: 18px;
 	width: 18px;
 	display: inline-block;
 	margin: 0 5px -5px 0;
 }
 .wish_link:before{
-	background-position: -279px 90px;
-	height: 18px;
+	background-position: 18px -18px;
+	height: 16px;
 	width: 18px;
 	display: inline-block;
 	margin: 0 5px -5px 0;
@@ -385,23 +390,23 @@ a{
 	background: url(../images/spritesheet.png);
 	left: -15px;
 	top: 50%;
-	margin: -9px;
+	margin: -8px;
 }
 .skype:before{
-	background-position: 441px 65px;
-	height: 18px;
+	background-position: 75px 0px;
+	height: 16px;
 	width: 18px;
 	position: absolute;
 }
 .icq:before{
-	background-position: -306px 185px;
-	height: 18px;
+	background-position: 57px 0px;
+	height: 16px;
 	width: 18px;
 	position: absolute;
 }
 .mail:before{
-	background-position: -207px 90px;
-	height: 18px;
+	background-position: 39px 0px;
+	height: 16px;
 	width: 18px;
 	position: absolute;
 }
